@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 10px;
+    background-color: black;
+
+}
+nav{
+    color:white;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-weight: bold;
+}
+.right a{
+    padding-left: 10px;
+}
+button .btn{
+    border-radius: 50px;
+   background-color: #4a80e2;
+   height:30px;
+   box-shadow: none;
+   margin-left: 20px;
+}
+
+
+/* .headingtab{
+    color:white;
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: space-around;
+} */
+
+
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.tab {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tab:hover {
+  background-color: #ddd;
+}
+
+.tab.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.data-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  color: #fff;
+}
+
+.card img {
+  max-width: 50px;
+}
+
+.card h2 {
+  margin: 10px 0;
+}
+
+.card p {
+  margin: 5px 0;
+  color:white;
+}
+
+.card .price-change {
+  color: green;
+}
+
+.card .price-change.negative {
+  color: red;
+}
